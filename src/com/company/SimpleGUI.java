@@ -91,6 +91,7 @@ public class SimpleGUI extends JFrame {
         if (validatePattern(email, Pattern.compile("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$"))) {
             System.out.println("Email is not valid.");
             return;
+
         }
 
     }
